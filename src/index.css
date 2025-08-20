@@ -1,0 +1,48 @@
+img{
+  width: 100px;
+  height: 100px;
+  image-rendering: optimizeQuality;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: all 0.3s ease;
+}
+*{
+  margin: 0;
+}
+.image-container{
+  width:600px;
+  margin: 0 auto;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+button:hover{
+  background-color: green;
+  color: white;
+}
+
+.main{
+  width: fit-content;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 30px;
+  background-position: center;
+  background-size: cover;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  margin-top: 10%;
+}
+body{
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.hover:active{
+  transform: scale(0.9);
+}
