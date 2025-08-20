@@ -234,7 +234,7 @@ const duckImg = pic.map(pic =>(
     <>
     <h1 style={{border:"5px solid black", padding:"10px"}}>You Win!</h1>
     <h1>You have tried to flip for {tries} times</h1>
-    <button onClick={reset} style={{border:"0", fontFamily:"monospace", padding:"10px 20px", border:"1px solid black",borderRadius:"5px", cursor:"pointer"}}>Reset</button>
+    <button onClick={reset} style={{ fontFamily:"monospace", padding:"10px 20px", border:"1px solid black",borderRadius:"5px", cursor:"pointer"}}>Reset</button>
     </>
     
     :null}
