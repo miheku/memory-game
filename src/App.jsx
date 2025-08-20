@@ -5,9 +5,7 @@ import ds from './assets/duckSoda.png'
 import jb from './assets/juicebox.png'
 import lm from './assets/lemon.png'
 import gb from './assets/giftbox.png'
-import bg from './assets/bg.jpg'
 import correct from './assets/correct.mp3'
-import wrong from './assets/wrong.mp3'
 export default function App(){
 
 const[tries, setTries] = useState(0)
