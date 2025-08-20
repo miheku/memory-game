@@ -6,6 +6,7 @@ import jb from './assets/juicebox.png'
 import lm from './assets/lemon.png'
 import gb from './assets/giftbox.png'
 import correct from './assets/correct.mp3'
+import './App.css'
 export default function App(){
 
 const[tries, setTries] = useState(0)
